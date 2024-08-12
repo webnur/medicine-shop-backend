@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\errors\\.d5a2b21cdf5b28665d317be0cd4152261441b6b3-audit.json",
+    "files": [
+        {
+            "date": 1723355473205,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\errors\\school-2024-11-08-11-error.log",
+            "hash": "0ff665ed7d7ba136b4d35aba367e5f0b95877005e86eaa4db47065b337462a68"
+        },
+        {
+            "date": 1723356675469,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\errors\\school-2024-11-08-12-error.log",
+            "hash": "5f644ca278d02cb5d7e77259977d5068df9ca19260d32612c65b81db06bf9a18"
+        },
+        {
+            "date": 1723359614977,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\errors\\school-2024-11-08-13-error.log",
+            "hash": "608d41c5c2c3fbfae4327b20e1d188d09b00192f8cbee039eb0bc54be827654a"
+        },
+        {
+            "date": 1723366055794,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\errors\\school-2024-11-08-14-error.log",
+            "hash": "27855eebd8d24fd4c790ef8f9ac012b9979292c96df183d218b85d043550f3be"
+        },
+        {
+            "date": 1723370658641,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\errors\\school-2024-11-08-16-error.log",
+            "hash": "1b33a04ac14e0ef373c3d93a6437da4f7c6c5ff629eb0c2672e2e12315c7488a"
+        },
+        {
+            "date": 1723381543919,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\errors\\school-2024-11-08-19-error.log",
+            "hash": "98064df68b2ba57a4b7d6c9bf61ce305223bb250ec00cf04275d0119310aa016"
+        },
+        {
+            "date": 1723419204279,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\errors\\school-2024-12-08-05-error.log",
+            "hash": "6f9ea5ee71d1ea192cc28503e430dd370a1bbc6ade3f4634f7ad1e5e9c1f6e3d"
+        },
+        {
+            "date": 1723434607807,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\errors\\school-2024-12-08-09-error.log",
+            "hash": "b59e91760c182202ebbe39986bd02425652a401aed235447bee840f810f58c63"
+        },
+        {
+            "date": 1723435882870,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\errors\\school-2024-12-08-10-error.log",
+            "hash": "8a696b693f142218a8ce0ce7b147bc3f3158c2fa0be489a42a310063a426a71b"
+        }
+    ],
+    "hashType": "sha256"
+}

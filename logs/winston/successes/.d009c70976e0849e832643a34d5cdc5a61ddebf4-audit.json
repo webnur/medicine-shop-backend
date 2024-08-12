@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\.d009c70976e0849e832643a34d5cdc5a61ddebf4-audit.json",
+    "files": [
+        {
+            "date": 1723438664239,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\medicine-backend-2024-12-08-10-success.log",
+            "hash": "3d3117754ac251fdf6d6035ee73433f0771b88b9f42ee595369e88f3cfeaebcf"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\.d7dc228f06f930c9c945e08a98a6aff8b3396667-audit.json",
+    "files": [
+        {
+            "date": 1723355473196,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\school-2024-11-08-11-success.log",
+            "hash": "74f2b9027fd3a067c4e588ae76f9e1fc3ea3a8c8e5333013e3fcb793c4a5d489"
+        },
+        {
+            "date": 1723356675462,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\school-2024-11-08-12-success.log",
+            "hash": "2db73220da5120e9bf3a46662fceb71a06f80999cd91305d9e23eee7aac9fcb3"
+        },
+        {
+            "date": 1723359614965,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\school-2024-11-08-13-success.log",
+            "hash": "e93625f7e20ea8789850ed011893a125cde141eba08d778e702c70e1fc9f7716"
+        },
+        {
+            "date": 1723366055778,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\school-2024-11-08-14-success.log",
+            "hash": "0e2834e222bc14fe911bf218d3a0c3db7586fe9b406542d9a516717376adc5ae"
+        },
+        {
+            "date": 1723370658634,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\school-2024-11-08-16-success.log",
+            "hash": "55673d05dd2ae39793868fc657d778904c6da913ff72c28c3faf1745abda8fba"
+        },
+        {
+            "date": 1723381543910,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\school-2024-11-08-19-success.log",
+            "hash": "27d2ed77a6393d7305cf7ea5048958517f1b2d872853b6d187589d929f2f170a"
+        },
+        {
+            "date": 1723419204265,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\school-2024-12-08-05-success.log",
+            "hash": "74aea5af90d8a30894762fdd08ba1171cc3b91508a0e69bbf044fe69a70c3b25"
+        },
+        {
+            "date": 1723434607798,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\school-2024-12-08-09-success.log",
+            "hash": "b06a035d4bf46d16fef6718b4d8bc943ac692b98ec1e5b565df436cc1fcb1f89"
+        },
+        {
+            "date": 1723435882862,
+            "name": "D:\\tasks\\asian-it\\asian-it-back-end-tast\\logs\\winston\\successes\\school-2024-12-08-10-success.log",
+            "hash": "80cec9c93eca57db56a274520a8f2eb5f7e3a51c951a0c63acd458fbfd6d406e"
+        }
+    ],
+    "hashType": "sha256"
+}
