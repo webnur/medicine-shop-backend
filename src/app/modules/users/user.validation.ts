@@ -1,8 +1,18 @@
-// import crypto from "crypto";
-// import { IUser } from "./user.interface";
+import { z } from "zod";
 
-// export const generateVerificationCode = (user: IUser) => {
-//   const verificationCode = crypto.randomBytes(3).toString("hex"); // 6-digit hex code
-//   user.verificationCode = verificationCode;
-//   user.verificationCodeExpires = new Date(Date.now() + 59 * 1000); // 59 seconds from now
-// };
+const createUser = z.object({
+  name: z.string(),
+  email: z.string().email(),
+  password: z.string(),
+  photo: z.string().url().optional(),
+  emailVerified: z.boolean(),
+  verificationCode: z.string().nullable(),
+  verificationCodeExpires: z.date().nullable(),
+  role: z.enum(["super_admin", "admin", "user"]),
+  needsPasswordChange: z.boolean(),
+  passwordChangedAt: z.date(),
+});
+
+export const UserValidation = {
+  createUser,
+};

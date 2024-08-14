@@ -11,6 +11,7 @@ import httpStatus from "http-status";
 const createUser: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const userData = req.body;
+
     const result = await UserService.createUser(userData);
 
     sendResponse<IUser>(res, {
