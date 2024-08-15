@@ -82,17 +82,17 @@ UserSchema.statics.isUserExist = async function (
 ): Promise<IUser | null> {
   return await User.findOne(
     { email },
-    { email: 1, password: 1, role: 1, needsPasswordChange: 1 }
+    { email: 1, password: 1, role: 1, needsPasswordChange: 1, emailVerified: 1 }
   );
 };
 
-// // // user password matches
-// UserSchema.statics.isPasswordMatched = async function (
-//   givenPassword: string,
-//   savedPassword: string
-// ): Promise<boolean> {
-//   return await bcrypt.compare(givenPassword, savedPassword);
-// };
+// // user password matches
+UserSchema.statics.isPasswordMatched = async function (
+  givenPassword: string,
+  savedPassword: string
+): Promise<boolean> {
+  return await bcrypt.compare(givenPassword, savedPassword);
+};
 
 // UserSchema.methods.changedPasswordAfterJwtIssued = function (
 //   jwtTimestamp: number
@@ -101,19 +101,19 @@ UserSchema.statics.isUserExist = async function (
 // };
 
 // // hashing passwords
-// UserSchema.pre("save", async function (next) {
-//   // hashing user password
-//   const user = this;
-//   user.password = await bcrypt.hash(
-//     user.password,
-//     Number(config.bycrypt_salt_rounds)
-//   );
+UserSchema.pre("save", async function (next) {
+  // hashing user password
+  const user = this;
+  user.password = await bcrypt.hash(
+    user.password,
+    Number(config.bycrypt_salt_rounds)
+  );
 
-//   if (!user.needsPasswordChange) {
-//     user.passwordChangedAt = new Date();
-//   }
+  if (!user.needsPasswordChange) {
+    user.passwordChangedAt = new Date();
+  }
 
-//   next();
-// });
+  next();
+});
 
 export const User = model<IUser, UserModel>("User", UserSchema);
